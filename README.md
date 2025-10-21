@@ -25,7 +25,7 @@ Antes de iniciar os testes, é importante garantir que o ambiente virtual esteja
 Antes de qualquer alteração, crie um **snapshot** no Metasploitable para garantir um ponto de restauração em caso de falhas ou erros durante os testes.
 
 1. Acesse o sistema e clique no campo "Máquina" e em seguida "Criar snapshot".
-2. O idel é escrever tudo com letras minúsculas, sem espeço e não utilizar acentos ou caracteres especiais.
+2. O ideal é escrever tudo com letras minúsculas, sem espeço e não utilizar acentos ou caracteres especiais.
 
 ```text
 configuracaoinicial
