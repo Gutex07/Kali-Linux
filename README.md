@@ -13,9 +13,50 @@ Este projeto demonstra a configuração de um ambiente virtual para simulação 
 - Simular ataques de força bruta em FTP
 - Automatizar tentativas de login em formulário web (DVWA)
 - Realizar password spraying em SMB com enumeração de usuários
-
+- 
 ---
 
+## 🛠️ Preparação Inicial
+
+Antes de iniciar os testes, é importante garantir que o ambiente virtual esteja corretamente configurado e conectado.
+
+### 🔄 Criar Snapshot de Segurança
+
+Antes de qualquer alteração, crie um **snapshot** no Metasploitable para garantir um ponto de restauração em caso de falhas ou erros durante os testes.
+
+1. Acesse o sistema e clique no campo "Máquina" e em seguida "Criar snapshot".
+2. O idel é escrever tudo com letras minúsculas, sem espeço e não utilizar acentos ou caracteres especiais.
+
+```text
+configuracaoinicial
+```
+
+### 🔐 Acesso ao Metasploitable
+
+1. Inicie a máquina **Metasploitable**.
+2. Faça login com as seguintes credenciais:
+
+```text
+Usuário: msfadmin  
+Senha: msfadmin
+```
+3. Descubra o ip da máquina
+
+```bash
+ip a
+```
+
+### 📡 Verificar Conectividade com Kali Linux
+
+Com o ip do Metasploitable faça o teste para verificar a conectividade, no terminal da máquina **Kali Linux**, execute o seguinte comando:
+
+```bash
+ping -c 3 192.168.56.101
+```
+
+Se o retorno for positivo, o ambiente está pronto para iniciar os testes.
+
+---
 ## 🔐 Etapa 1: Ataque de Força Bruta em Formulário Web (DVWA)
 
 ### 📋 Descrição
