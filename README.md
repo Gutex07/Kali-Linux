@@ -57,7 +57,7 @@ ping -c 3 \\inserir o ip encontrado anteriormente
 Se o retorno for positivo, o ambiente está pronto para iniciar os testes.
 
 ---
-## 🔐 Etapa 1: Ataque de Força Bruta em Formulário Web (DVWA)
+## 🔐 Ataque de Força Bruta em Formulário Web (DVWA)
 
 ### 📋 Descrição
 
@@ -92,7 +92,7 @@ medusa -h 192.168.56.101 -U users.txt -P pass.txt -M http \
 
 ---
 
-## 🧨 Etapa 2: Password Spraying em SMB com Enumeração de Usuários
+## 🧨 Password Spraying em SMB com Enumeração de Usuários
 
 ### 📋 Descrição
 
