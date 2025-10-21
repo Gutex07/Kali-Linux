@@ -51,7 +51,7 @@ ip a
 Com o ip do Metasploitable faça o teste para verificar a conectividade, no terminal da máquina **Kali Linux**, execute o seguinte comando:
 
 ```bash
-ping -c 3 192.168.56.101
+ping -c 3 \\inserir o ip encontrado anteriormente
 ```
 
 Se o retorno for positivo, o ambiente está pronto para iniciar os testes.
